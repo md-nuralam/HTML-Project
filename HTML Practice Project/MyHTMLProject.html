@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My HTML Project</title>
+        <style>
+            img{
+                height: 200px;
+                width: 200px;
+                border-radius: 100px;
+                border: 1px solid black;
+            }
+
+            table, tr, th, td{
+                border: 1px solid black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--Header section starts here-->
+        <header>
+        <div>
+            <img src="Media/PP.jpg" alt="Md. Nur Alam's Photo"/>
+            <h1>Md. Nur Alam (Polash)</h1>
+        </div>
+
+        <strong>Software Engineer</strong>
+        </header>
+        <!-- Header section ends here-->
+
+        <!-- Nav section starts here-->
+
+        <nav>
+        <p>
+            <a href="#" target="_blank">My Website</a>
+            <a href="https://www.linkedin.com/in/mdnuralaminfo/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/md-nuralam/" target="_blank">GitHub</a>
+            <a href="mailto:mdnuralam.info@gmail.com" target="_blank">Email</a>
+            <a href="https://www.facebook.com/nuralampolash.info" target="_blank">Facebook</a>
+        </p>
+        <hr/>
+        </nav>
+        <!-- Nav section ends here-->
+        
+        
+        <main>
+        <section>
+
+        <!--Summery section starts here-->
+        <h2><em>Summery</em></h2>
+        <p>I would like to build up my career in an organization where enthusiasm, excellent environment, and motivational factors will help and support me to obtain a position with opportunities to utilize my technical experiences, skills, creativity, sincerity for the better achievement of the organization. Some of my core interests are in ASP.Net Core, React, JavaScript and some other Web Development technology and tools</p>
+        </section>
+        <hr/>
+        <!--Summery section ends here-->
+
+        <section>
+        <!--Employeement section starts here-->
+        <h2><em>Employeement</em></h2>
+        <ol>
+            <li>
+                <b>Jr. Software Engineer at SelfLearner</b>
+                <span>| Dec 2022 to Present...</span>
+                <p>I am learning programming by myself.</p>
+            </li>
+            <li>
+                <b>Student at AIUB</b>
+                <span>| May 2017 to Present...</span>
+                <p>I have completed my BSc. in Software Engineering degree here.</p>
+            </li>
+        </ol>
+        </section>
+        <hr/>
+        <!--Employeement section ends here-->
+        
+
+        <section>
+        <!--Education section starts here-->
+        <h2><em>Educations</em></h2>
+        <ul>
+            <li>
+                <strong>BSc. in Software Engineering</strong>
+                <p>American International University-Bangladesh</p>
+                <p>CGPA 3.06 out of 4.00</p>
+            </li>
+            <li>
+                <strong>HSC (Science)</strong>
+                <p>Bogra Cantonment Public School & College</p>
+                <p>GPA 5.00 out of 5.00</p>
+            </li>
+            <li>
+                <strong>SSC (Science)</strong>
+                <p>Bogra Cantonment Board High School</p>
+                <p>GPA 5.00 out of 5.00</p>
+            </li>
+        </ul>
+        </section>
+        <hr/>
+        <!--Education section ends here-->
+        
+
+        <section>
+        <!--Skill section starts here-->
+        <h2><em>Skills</em></h2>
+
+        <!--Table starts here-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Technologies</th>
+                    <th>Skill Level</th>
+                </tr>
+            </thead>
+            <tbodY>
+                <tr>
+                    <td>HTML</td>
+                    <td>★★★★☆</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>★★★☆☆</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>★★★☆☆</td>
+                </tr>
+                <tr>
+                    <td>C# Language</td>
+                    <td>★★★★☆</td>
+                </tr>
+                <tr>
+                    <td>ASP.NET Core</td>
+                    <td>★★★☆☆</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>★★★☆☆</td>
+                </tr>
+            </tbodY>
+        </table>
+        <!--Table ends here-->
+        </section>
+        <hr/>
+        <!--Skill section ends here-->
+        
+
+        <section>
+        <!--Contact me section starts here-->
+        <h2><em>Contact me</em></h2>
+
+        <!--Form starts here-->
+        <fieldset>
+            <legend>Complete the form</legend>
+            <form>
+            <label for="name" >Name:</label>
+            <input type="text" id="name" required>
+            <br/><br/>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <br/><br/>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <br/><br/>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone">
+            <br/><br/>
+
+            <label for="DOB">Date of birth:</label>
+            <input type="date" id="DOB">
+            <br/><br/>
+
+            <label for="month">Favourite Month:</label>
+            <input type="month" id="month">
+            <br/><br/>
+
+            <label for="random_num">Select a random number:</label>
+            <input type="number" id="random_num" min="0" max="5" value="0">
+            <br><br>
+
+            <label for="image">Upload your image:</label>
+            <input type="file" id="image">
+            <br/><br/>
+
+            <label for="color">Select your favourite color:</label>
+            <input type="color" id="color">
+            <br/><br/>
+
+            <label for="website">Enter your website URL here:</label>
+            <input type="url" id="website">
+            <br/><br/>
+
+            <p>Religion:</p>
+            <input type="checkbox" id="muslim">
+            <label for="muslim">Muslim</label>
+            <br/>
+            <input type="checkbox" id="hindu">
+            <label for="hindu">Hindu</label>
+            <br/>
+            <input type="checkbox" id="other">
+            <label for="hindu">Hindu</label>
+            <br/><br/>
+
+            <p>Gender:</p>
+            <input type="radio" id="male">
+            <label for="male">Male</label>
+            <br/>
+            <input type="radio" id="female">
+            <label for="female">Female</label>
+            <br/>
+            <input type="radio" id="others">
+            <label for="others">Others</label>
+            <br/><br/>
+
+            <label for="department">Department:</label>
+            <select name="department" id="department">
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>Others</option>
+            </select>
+            <br/><br/>
+
+            <label for="message">Message:</label><br/>
+            <textarea name="text" id="message" cols="30" rows="10"></textarea>
+            <br/>
+
+            <input type="submit" id="submit">
+            <button type="submit">Save Data</button>
+            <button type="reset">Clear</button>
+            
+        </form>
+        </fieldset>
+        <br/>
+        <!--Form ends here-->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.461454472324!2d90.41243401445612!3d23.766576694076186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7810bfe3023%3A0x717aa0a1e0a17503!2sMohanagar%20Project!5e0!3m2!1sen!2sbd!4v1674478079019!5m2!1sen!2sbd" width="400" height="250" style="border:0;" title="map address" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+              
+        </section>
+        
+        <hr/>
+        <!--Contact me section ends here-->
+
+        <!--Multimedia section starts here-->
+        <section>
+        <h2><em>Multimedia</em></h2>
+        <label>National Anthem (Audio):</label>
+        <br/> 
+        <audio controls>
+            <source src="Media/NationalAnthem.mp3" type="audio/mpeg">
+        </audio>
+        <br/><br/>
+
+        <label>National Anthem (Video):</label>
+        <br/>
+        <video controls id="video">
+            <source src="Media/NationalAnthem.mp4" type="video/mp4">
+        </video>
+
+        </section>
+        </main> 
+
+        <!--Footer section starts here-->
+        <footer>
+        <p>Developed by Md. Nur Alam Polash</p>
+        <p>&copy; Copyrigh 2023</p>     
+        </footer>
+        <!--Footer section ends here-->
+
+    </body>
+</html>
